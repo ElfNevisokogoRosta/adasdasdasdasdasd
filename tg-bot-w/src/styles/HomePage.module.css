@@ -1,0 +1,35 @@
+.container {
+  border-top-right-radius: -15px;
+  border-top-left-radius: -15px;
+}
+.grettings {
+  color: var(--tg-theme-text-color);
+  padding: 8px 16px;
+  text-align: center;
+}
+.exchange_container {
+  display: flex;
+  justify-content: space-between;
+}
+.exchage_currency {
+  background-color: var(--tg-theme-section-bg-color);
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+.exchange_symbol {
+  display: block;
+  width: 24px;
+  font-size: 24px;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.exchage_title {
+  color: var(--tg-theme-text-color);
+  text-align: center;
+}
+.exchange_result {
+  font-size: 1em;
+  color: var(--tg-theme-text-color);
+}
